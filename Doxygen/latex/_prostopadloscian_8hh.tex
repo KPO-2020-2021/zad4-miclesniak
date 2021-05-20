@@ -1,0 +1,70 @@
+\hypertarget{_prostopadloscian_8hh}{}\doxysection{/home/michal/zad4-\/miclesniak/include/\+Prostopadloscian.hh File Reference}
+\label{_prostopadloscian_8hh}\index{/home/michal/zad4-\/miclesniak/include/Prostopadloscian.hh@{/home/michal/zad4-\/miclesniak/include/Prostopadloscian.hh}}
+
+
+Definicja klasy \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}} oraz deklaracja jej metod.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}Wektor3\+D.\+hh\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Macierz3x3.\+hh\char`\"{}}\newline
+Include dependency graph for Prostopadloscian.\+hh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_prostopadloscian_8hh__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}}
+\begin{DoxyCompactList}\small\item\em Klasa modeluje pojęcie prostopadłościanu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_prostopadloscian_8hh_a6a4900bc7a511077a76d081b15099cb0}\label{_prostopadloscian_8hh_a6a4900bc7a511077a76d081b15099cb0}} 
+\#define {\bfseries R\+O\+Z\+M\+\_\+P}~8
+\item 
+\mbox{\Hypertarget{_prostopadloscian_8hh_a6a386d0c4ae748564494f53e43b24d98}\label{_prostopadloscian_8hh_a6a386d0c4ae748564494f53e43b24d98}} 
+\#define {\bfseries I\+L\+\_\+B}~12
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{_prostopadloscian_8hh_a0cf7e82d9f5f77cc8227c47d15f85742}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}} \&Pr)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora bitowego w celu wyswietlenia prostopadloscianu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Definicja klasy \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}} oraz deklaracja jej metod. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_prostopadloscian_8hh_a0cf7e82d9f5f77cc8227c47d15f85742}\label{_prostopadloscian_8hh_a0cf7e82d9f5f77cc8227c47d15f85742}} 
+\index{Prostopadloscian.hh@{Prostopadloscian.hh}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Prostopadloscian.hh@{Prostopadloscian.hh}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}} \&}]{Pr }\end{DoxyParamCaption})}
+
+
+
+Przeciazenie operatora bitowego w celu wyswietlenia prostopadloscianu. 
+
+Przeciazenie operatora bitowego w celu wyswietlenia wierzcholkow prostopadloscianu Dane sa odpowiednio sformatowane, tzn. przyjęto notację stałoprzecinkową z dokładnością do 10 miejsca po przecinku. Szerokość wyświetlanego pola to 16 miejsc, sposób wyrównywania -\/ do prawej strony.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pr} & -\/ \mbox{\hyperlink{class_prostopadloscian}{Prostopadloscian}}, ktorego wierzcholki maja zostac wyswietlone \\
+\hline
+\mbox{\texttt{ in}}  & {\em out} & -\/ Strumien wyjsciowy, na ktorym ma zostac wyswietlony prostopadloscian\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream -\/ Strumien wyjsciowy 
+\end{DoxyReturn}

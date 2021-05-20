@@ -1,0 +1,272 @@
+\hypertarget{class_macierz}{}\doxysection{Macierz$<$ Wymiar $>$ Class Template Reference}
+\label{class_macierz}\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+
+
+Szablon klasy \mbox{\hyperlink{class_macierz}{Macierz}}.  
+
+
+
+
+{\ttfamily \#include $<$Macierz.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_macierz_ae79a7c17192a0b4b5f8a60904e046fe4}{Macierz}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny macierzy. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_macierz_a03a2a7e8fdb5a1ebd17876638ca241ce}{Macierz}} (const int liczba)
+\begin{DoxyCompactList}\small\item\em Konstruktor macierzy z argumentem. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_macierz_a17cc105d9e6a8c8af89d749249008919}{Macierz}} (double tmp\mbox{[}Wymiar\mbox{]}\mbox{[}Wymiar\mbox{]})
+\begin{DoxyCompactList}\small\item\em Konstruktor paramtetryczny macierzy. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_macierz_ad12b73c34a68499febfe3c7b790d75de}{operator==}} (\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ const tmp) const
+\begin{DoxyCompactList}\small\item\em Funkcja porównania dwóch Macierzy. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_macierz_a84a801ff8d8df529076ee9b23536b786}{operator()}} (const int X, const int Y) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora funkcyjnego. \end{DoxyCompactList}\item 
+double \& \mbox{\hyperlink{class_macierz_a1997f07161fa635f0eaa47aea96c901b}{operator()}} (const int X, const int Y)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora funkcyjnego. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ \mbox{\hyperlink{class_macierz_a56743b6fe6a3c011038a9caf9ca23100}{operator$\ast$}} (const \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ \&macierz) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora mnożenia macierzy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_macierz_a160440e11cf586a5fb1fba940de57ac4}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Wyczyszczenie macierzy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_macierz_a7c4bbd016dd743cd6c5fa421c674220b}{setM}} (const double alfa, const char \&os)
+\begin{DoxyCompactList}\small\item\em Ustalenie macierzy obrotu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_macierz_a1c95b9e60baed1c837d0ffaaffdb0e58}{setX}} (const double alfa)
+\begin{DoxyCompactList}\small\item\em Utworzenie macierzy obrotu wokół osi X. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_macierz_a386734fb46ce1b5fe995a5d44e398475}{setY}} (const double alfa)
+\begin{DoxyCompactList}\small\item\em Utworzenie macierzy obrotu wokół osi Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_macierz_acf02beac8cd3f99b815cc8647df0cef6}{setZ}} (const double alfa)
+\begin{DoxyCompactList}\small\item\em Utworzenie macierzy obrotu wokół osi Z. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int Wymiar$>$\newline
+class Macierz$<$ Wymiar $>$}
+
+Szablon klasy \mbox{\hyperlink{class_macierz}{Macierz}}. 
+
+Modeluje pojęcie Macierzy o dowolnym rozmiarze 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_macierz_ae79a7c17192a0b4b5f8a60904e046fe4}\label{class_macierz_ae79a7c17192a0b4b5f8a60904e046fe4}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!Macierz@{Macierz}}
+\index{Macierz@{Macierz}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{Macierz()}{Macierz()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::\mbox{\hyperlink{class_macierz}{Macierz}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor domyślny macierzy. 
+
+Konstruktor domyślny wypełniający macierz zerami \mbox{\Hypertarget{class_macierz_a03a2a7e8fdb5a1ebd17876638ca241ce}\label{class_macierz_a03a2a7e8fdb5a1ebd17876638ca241ce}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!Macierz@{Macierz}}
+\index{Macierz@{Macierz}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{Macierz()}{Macierz()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::\mbox{\hyperlink{class_macierz}{Macierz}} (\begin{DoxyParamCaption}\item[{const int}]{liczba }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor macierzy z argumentem. 
+
+Konstruktor macierzy, który wypełnia jej przekątną podaną liczbą ma głównie na celu stworzenie macierzy jednostkowej
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em liczba} & -\/ liczba którą zostanie wypełniona przekątna \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_macierz_a17cc105d9e6a8c8af89d749249008919}\label{class_macierz_a17cc105d9e6a8c8af89d749249008919}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!Macierz@{Macierz}}
+\index{Macierz@{Macierz}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{Macierz()}{Macierz()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::\mbox{\hyperlink{class_macierz}{Macierz}} (\begin{DoxyParamCaption}\item[{double}]{tmp\mbox{[}\+Wymiar\mbox{]}\mbox{[}\+Wymiar\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor paramtetryczny macierzy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmp} & tablica z której której przepisujemy wartości do Macierzy \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_macierz_a160440e11cf586a5fb1fba940de57ac4}\label{class_macierz_a160440e11cf586a5fb1fba940de57ac4}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!clear@{clear}}
+\index{clear@{clear}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Wyczyszczenie macierzy. 
+
+Metoda, która wypełnia pola macierzy zerami, stworzona na potrzeby metody Rotacja\+::\+Ustal\+Koniec \mbox{\Hypertarget{class_macierz_a1997f07161fa635f0eaa47aea96c901b}\label{class_macierz_a1997f07161fa635f0eaa47aea96c901b}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+double\& \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::operator() (\begin{DoxyParamCaption}\item[{const int}]{X,  }\item[{const int}]{Y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora funkcyjnego. 
+
+P\+Przeciazenie operatora funkcyjnego w celu modyfikacji elementu macierzy 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em X} & -\/ pierwszy indeks tablicy \\
+\hline
+\mbox{\texttt{ in}}  & {\em Y} & -\/ drugi indeks tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double -\/ liczba typu double, ktora byla przechowywana w danym miejscu macierzy, jest ona modyfikowalna 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_macierz_a84a801ff8d8df529076ee9b23536b786}\label{class_macierz_a84a801ff8d8df529076ee9b23536b786}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+double \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::operator() (\begin{DoxyParamCaption}\item[{const int}]{X,  }\item[{const int}]{Y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora funkcyjnego. 
+
+Przeciazenie operatora funkcyjnego w celu odniesienia sie do elementu macierzy 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em X} & -\/ pierwszy indeks tablicy \\
+\hline
+\mbox{\texttt{ in}}  & {\em Y} & -\/ drugi indeks tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double -\/ liczba typu double, ktora byla przechowywana w danym miejscu macierzy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_macierz_a56743b6fe6a3c011038a9caf9ca23100}\label{class_macierz_a56743b6fe6a3c011038a9caf9ca23100}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_macierz}{Macierz}}$<$Wymiar$>$ \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ \&}]{macierz }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora mnożenia macierzy. 
+
+Przeciążenie operatora mnożenia, które pozwala na wymnożenie ze sobą dwóch macierzy, stworzone, w celu następującej po sobie rotacji przez daną macierz
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em macierz} & -\/ macierz mnożona \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Macierz$<$\+Wymiar$>$ -\/ macierz wynikowa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_macierz_ad12b73c34a68499febfe3c7b790d75de}\label{class_macierz_ad12b73c34a68499febfe3c7b790d75de}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+bool \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ const}]{tmp }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funkcja porównania dwóch Macierzy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmp} & \mbox{\hyperlink{class_macierz}{Macierz}} z którą porównujemy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true Macierze są identyczne ~\newline
+ 
+
+false Macierze różnią się od siebie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_macierz_a7c4bbd016dd743cd6c5fa421c674220b}\label{class_macierz_a7c4bbd016dd743cd6c5fa421c674220b}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!setM@{setM}}
+\index{setM@{setM}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{setM()}{setM()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::setM (\begin{DoxyParamCaption}\item[{const double}]{alfa,  }\item[{const char \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustalenie macierzy obrotu. 
+
+Metoda tworząca macierz rotacji na podstawie podanego kąta oraz znaku odpowiadającego osi rotacji
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em alfa} & -\/ Liczba typu double zawierająca wartość~kąta \\
+\hline
+\mbox{\texttt{ in}}  & {\em os} & -\/ znak typu char przechowujący znak osi rotacji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_macierz_a1c95b9e60baed1c837d0ffaaffdb0e58}\label{class_macierz_a1c95b9e60baed1c837d0ffaaffdb0e58}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!setX@{setX}}
+\index{setX@{setX}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::setX (\begin{DoxyParamCaption}\item[{const double}]{alfa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utworzenie macierzy obrotu wokół osi X. 
+
+Metoda ustalająca odpowiednie wartości macierzy, aby na jej podstawie była możliwa rotacja prostopadłościanu o zadany kąt alfa wokół osi X
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em alfa} & -\/ Liczba typu double zawierająca wartość kąta \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_macierz_a386734fb46ce1b5fe995a5d44e398475}\label{class_macierz_a386734fb46ce1b5fe995a5d44e398475}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!setY@{setY}}
+\index{setY@{setY}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::setY (\begin{DoxyParamCaption}\item[{const double}]{alfa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utworzenie macierzy obrotu wokół osi Y. 
+
+Metoda ustalająca odpowiednie wartości macierzy, aby na jej podstawie była możliwa rotacja prostopadłościanu o zadany kąt alfa wokół osi Y
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em alfa} & -\/ Liczba typu double zawierająca wartość kąta \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_macierz_acf02beac8cd3f99b815cc8647df0cef6}\label{class_macierz_acf02beac8cd3f99b815cc8647df0cef6}} 
+\index{Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}!setZ@{setZ}}
+\index{setZ@{setZ}!Macierz$<$ Wymiar $>$@{Macierz$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{setZ()}{setZ()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$\+::setZ (\begin{DoxyParamCaption}\item[{const double}]{alfa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utworzenie macierzy obrotu wokół osi Z. 
+
+Metoda ustalająca odpowiednie wartości macierzy, aby na jej podstawie była możliwa rotacja prostopadłościanu o zadany kąt alfa wokół osi Z
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em alfa} & -\/ Liczba typu double zawierająca wartość kąta \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/zad4-\/miclesniak/include/\mbox{\hyperlink{_macierz_8hh}{Macierz.\+hh}}\end{DoxyCompactItemize}

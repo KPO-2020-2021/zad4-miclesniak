@@ -1,0 +1,334 @@
+\hypertarget{class_prostopadloscian}{}\doxysection{Prostopadloscian Class Reference}
+\label{class_prostopadloscian}\index{Prostopadloscian@{Prostopadloscian}}
+
+
+Klasa modeluje pojęcie prostopadłościanu.  
+
+
+
+
+{\ttfamily \#include $<$Prostopadloscian.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_prostopadloscian_a432b8df2af37ba1a3596f500824eaffe}{Prostopadloscian}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}} \mbox{\hyperlink{class_prostopadloscian_ad6c01d620dc746e806478f86b95d67fe}{operator\mbox{[}$\,$\mbox{]}}} (const int i) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora indeksowania. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}} \& \mbox{\hyperlink{class_prostopadloscian_aec92dd67812e8c21f87bb396367802bd}{operator\mbox{[}$\,$\mbox{]}}} (const int i)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora indeksowania. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a72ecfea9ebe69800539aa30fb6da1b3a}{Przesun}} (const \mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}} \&wek)
+\begin{DoxyCompactList}\small\item\em Przesunięcie prostopadłościanu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a2cd238ee77569c5c7199ee46d04c3bed}{Rotacja}} (const \mbox{\hyperlink{_macierz3x3_8hh_ad4fc7b0e263d9a99ba6174f68b52ea87}{Macierz3x3}} \&macierz)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_rotacja}{Rotacja}} prostopadłościanu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_ad0f86903b0cbf66021b6dee851e261ab}{Zapis\+Do\+Str}} (std\+::ostream \&Str) const
+\begin{DoxyCompactList}\small\item\em Zapisanie prostopadłościanu do strumienia. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_prostopadloscian_a0d4a509dc0f1eb0929eaf94168e262be}{Zapis\+Do\+Pliku}} (const char $\ast$Nazwa\+Pliku) const
+\begin{DoxyCompactList}\small\item\em Zapisanie prostopadłościanu do pliku. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_ac3357d7125ca4171299e40260c4bdc3f}{Zapisz\+Boki}} (double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Zapisanie bokow prostopadloscianu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a8200155ebc68c207f23a72190e2f3d7a}{Zapisz\+BokiX}} (double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Zapisanie bokow z osi X prostopadloscianu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a344b04330b7f57f887dfb8499f4d48bd}{Zapisz\+BokiY}} (double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Zapisanie bokow z osi Y prostopadloscianu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a8c6530d9c54c3fce7be7380b4c191d82}{Zapisz\+BokiZ}} (double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Zapisanie bokow z osi Z prostopadloscianu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a81cbec885c16ee53684171cc8e0daf03}{Wyswietlboki}} (const int nr\+\_\+boku, double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Wyswietlenie dlugosci bokow prostopadloscianu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_ad2d99579c05eb8ab3657b43efc4118d3}{Porownaj}} (double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Porownanie dlugosci bokow prostopadloscianu. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_prostopadloscian_a1ef0d905b2937cdcc428924c1e3e0c6b}{Sprawdzboki}} (const int nr\+\_\+boku, double Tab\mbox{[}I\+L\+\_\+B\mbox{]}) const
+\begin{DoxyCompactList}\small\item\em Sprawdzenie długości boków prostopadłościanu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prostopadloscian_a1b798c35ccb048419d9105b82843b87d}{Inicjalizuj}} (const double wsp, const double bokx, const double boky, const double bokz)
+\begin{DoxyCompactList}\small\item\em Utworzenie prostopadłościanu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa modeluje pojęcie prostopadłościanu. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_prostopadloscian_a432b8df2af37ba1a3596f500824eaffe}\label{class_prostopadloscian_a432b8df2af37ba1a3596f500824eaffe}} 
+\index{Prostopadloscian@{Prostopadloscian}!Prostopadloscian@{Prostopadloscian}}
+\index{Prostopadloscian@{Prostopadloscian}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Prostopadloscian()}{Prostopadloscian()}}
+{\footnotesize\ttfamily Prostopadloscian\+::\+Prostopadloscian (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor domyślny. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_prostopadloscian_a1b798c35ccb048419d9105b82843b87d}\label{class_prostopadloscian_a1b798c35ccb048419d9105b82843b87d}} 
+\index{Prostopadloscian@{Prostopadloscian}!Inicjalizuj@{Inicjalizuj}}
+\index{Inicjalizuj@{Inicjalizuj}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Inicjalizuj()}{Inicjalizuj()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Inicjalizuj (\begin{DoxyParamCaption}\item[{const double}]{wsp,  }\item[{const double}]{bokx,  }\item[{const double}]{boky,  }\item[{const double}]{bokz }\end{DoxyParamCaption})}
+
+
+
+Utworzenie prostopadłościanu. 
+
+Metoda, która tworzy prostopadłościan z podanymi parametrami
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em wsp} & -\/ współrzędna X, Y, Z pierwszego wierzchołka \\
+\hline
+\mbox{\texttt{ in}}  & {\em bokx} & -\/ długość boków na osi x \\
+\hline
+\mbox{\texttt{ in}}  & {\em boky} & -\/ długość boków na osi y \\
+\hline
+\mbox{\texttt{ in}}  & {\em bokz} & -\/ długość boków na osi z \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_aec92dd67812e8c21f87bb396367802bd}\label{class_prostopadloscian_aec92dd67812e8c21f87bb396367802bd}} 
+\index{Prostopadloscian@{Prostopadloscian}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}}\& Prostopadloscian\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora indeksowania. 
+
+Przeciążenie operatora w celu użycia w funkcjach modyfikujących element.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & -\/ indeks tablicy obiektów klasy Wektor3D \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor3D\& -\/ Wektor3D znajdujący się pod danym indeksem, jest on modyfikowalny 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_prostopadloscian_ad6c01d620dc746e806478f86b95d67fe}\label{class_prostopadloscian_ad6c01d620dc746e806478f86b95d67fe}} 
+\index{Prostopadloscian@{Prostopadloscian}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}} Prostopadloscian\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora indeksowania. 
+
+Przeciążenie operatora w celu użycia w funkcjach bez modyfikacji elementu.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & -\/ indeks tablicy obiektów klasy Wektor3D \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor3D -\/ Wektor3D znajdujący się pod danym indeksem 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_prostopadloscian_ad2d99579c05eb8ab3657b43efc4118d3}\label{class_prostopadloscian_ad2d99579c05eb8ab3657b43efc4118d3}} 
+\index{Prostopadloscian@{Prostopadloscian}!Porownaj@{Porownaj}}
+\index{Porownaj@{Porownaj}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Porownaj()}{Porownaj()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Porownaj (\begin{DoxyParamCaption}\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Porownanie dlugosci bokow prostopadloscianu. 
+
+Metoda porownujaca dlugosci przeciwleglych bokow oraz wyswietlajaca ich wartosc oraz informacje czy sa sobie rowne
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double, przechowujaca wartosci odpowiednich bokow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a72ecfea9ebe69800539aa30fb6da1b3a}\label{class_prostopadloscian_a72ecfea9ebe69800539aa30fb6da1b3a}} 
+\index{Prostopadloscian@{Prostopadloscian}!Przesun@{Przesun}}
+\index{Przesun@{Przesun}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Przesun()}{Przesun()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Przesun (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_wektor3_d_8hh_ac353a272b38b4ad342f7181ad7bdb91a}{Wektor3D}} \&}]{wek }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przesunięcie prostopadłościanu. 
+
+Metoda przesuwa współrzędne prostopadłościanu o zadany wektor, modyfikuje prostopadłościan
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em wek} & -\/ wektor przesunięcia \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a2cd238ee77569c5c7199ee46d04c3bed}\label{class_prostopadloscian_a2cd238ee77569c5c7199ee46d04c3bed}} 
+\index{Prostopadloscian@{Prostopadloscian}!Rotacja@{Rotacja}}
+\index{Rotacja@{Rotacja}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Rotacja()}{Rotacja()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Rotacja (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_macierz3x3_8hh_ad4fc7b0e263d9a99ba6174f68b52ea87}{Macierz3x3}} \&}]{macierz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{class_rotacja}{Rotacja}} prostopadłościanu. 
+
+Metoda wykonuje rotację współrzędnych prostopadłościanu przy pomocy macierzy rotacji.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em macierz} & -\/ macierz rotacji \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a1ef0d905b2937cdcc428924c1e3e0c6b}\label{class_prostopadloscian_a1ef0d905b2937cdcc428924c1e3e0c6b}} 
+\index{Prostopadloscian@{Prostopadloscian}!Sprawdzboki@{Sprawdzboki}}
+\index{Sprawdzboki@{Sprawdzboki}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Sprawdzboki()}{Sprawdzboki()}}
+{\footnotesize\ttfamily bool Prostopadloscian\+::\+Sprawdzboki (\begin{DoxyParamCaption}\item[{const int}]{nr\+\_\+boku,  }\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Sprawdzenie długości boków prostopadłościanu. 
+
+Metoda pobiera z tablicy zapisane długości boków prostokąta, a następnie porównuje odpowiednie boki ze sobą, dając informację czy są sobie równe
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em nr\+\_\+boku} & -\/ parametr odpowiadający za to, które boki aktualnie zostaną porównane \\
+\hline
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ Tablica przechowująca wartości długości boków \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ gdy boki są równe 
+
+false -\/ gdy boki nie są sobie równe 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_prostopadloscian_a81cbec885c16ee53684171cc8e0daf03}\label{class_prostopadloscian_a81cbec885c16ee53684171cc8e0daf03}} 
+\index{Prostopadloscian@{Prostopadloscian}!Wyswietlboki@{Wyswietlboki}}
+\index{Wyswietlboki@{Wyswietlboki}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{Wyswietlboki()}{Wyswietlboki()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Wyswietlboki (\begin{DoxyParamCaption}\item[{const int}]{nr\+\_\+boku,  }\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Wyswietlenie dlugosci bokow prostopadloscianu. 
+
+Metoda wykorzystana w metodzie \mbox{\hyperlink{class_prostopadloscian_ad2d99579c05eb8ab3657b43efc4118d3}{Prostopadloscian\+::\+Porownaj}} ma za zadanie zwiekszenie czytelnosci kodu oraz jego skrocenie Wyswietla ona wartosci odpowiednich przeciwleglych bokow figury.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em nr\+\_\+boku} & -\/ parametr odpowiadajacy za odpowiednie boki, ktore zostana porownane \\
+\hline
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double przechowujaca wartosci odpowiednich bokow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a0d4a509dc0f1eb0929eaf94168e262be}\label{class_prostopadloscian_a0d4a509dc0f1eb0929eaf94168e262be}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapisDoPliku@{ZapisDoPliku}}
+\index{ZapisDoPliku@{ZapisDoPliku}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapisDoPliku()}{ZapisDoPliku()}}
+{\footnotesize\ttfamily bool Prostopadloscian\+::\+Zapis\+Do\+Pliku (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Nazwa\+Pliku }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie prostopadłościanu do pliku. 
+
+Metoda zapisująca współrzędne prostopadłościanu do pliku, z ktorego dane odczyta program gnuplot i narysuje je w swoim oknie graficznym.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Nazwa\+Pliku} & -\/ -\/ nazwa pliku, do którego zostana zapisane wspolrzędne punktów. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ gdy operacja zapisu powiodla sie 
+
+false -\/ w wypadku przeciwnym 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_prostopadloscian_ad0f86903b0cbf66021b6dee851e261ab}\label{class_prostopadloscian_ad0f86903b0cbf66021b6dee851e261ab}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapisDoStr@{ZapisDoStr}}
+\index{ZapisDoStr@{ZapisDoStr}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapisDoStr()}{ZapisDoStr()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Zapis\+Do\+Str (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{Str }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie prostopadłościanu do strumienia. 
+
+Metoda zapisuje współrzedne prostopadłościanu do strumienia aby następnie mogły one zostać zapisane do pliku
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Str} & -\/ strumień wyjściowy, do którego mają zostać zapisane kolejne współrzędne. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_ac3357d7125ca4171299e40260c4bdc3f}\label{class_prostopadloscian_ac3357d7125ca4171299e40260c4bdc3f}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapiszBoki@{ZapiszBoki}}
+\index{ZapiszBoki@{ZapiszBoki}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapiszBoki()}{ZapiszBoki()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Zapisz\+Boki (\begin{DoxyParamCaption}\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie bokow prostopadloscianu. 
+
+Metoda wykorzystana w \mbox{\hyperlink{class_prostopadloscian_ad2d99579c05eb8ab3657b43efc4118d3}{Prostopadloscian\+::\+Porownaj}} w celu zapisania dlugosci bokow prostokata do tablicy typu double.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double, w ktorej zapisywane sa dlugosci odpowiednich bokow, po kolei na osiach X, Y, Z \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a8200155ebc68c207f23a72190e2f3d7a}\label{class_prostopadloscian_a8200155ebc68c207f23a72190e2f3d7a}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapiszBokiX@{ZapiszBokiX}}
+\index{ZapiszBokiX@{ZapiszBokiX}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapiszBokiX()}{ZapiszBokiX()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Zapisz\+BokiX (\begin{DoxyParamCaption}\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie bokow z osi X prostopadloscianu. 
+
+Metoda zapisujaca w tablicy typu double dlugosci bokow lezacych na osi X
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double, w ktorej zapisywane sa dlugosci odpowiednich bokow, po kolei na osiach X, Y, Z \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a344b04330b7f57f887dfb8499f4d48bd}\label{class_prostopadloscian_a344b04330b7f57f887dfb8499f4d48bd}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapiszBokiY@{ZapiszBokiY}}
+\index{ZapiszBokiY@{ZapiszBokiY}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapiszBokiY()}{ZapiszBokiY()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Zapisz\+BokiY (\begin{DoxyParamCaption}\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie bokow z osi Y prostopadloscianu. 
+
+Metoda zapisujaca w tablicy typu double dlugosci bokow lezacych na osi Y
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double, w ktorej zapisywane sa dlugosci odpowiednich bokow, po kolei na osiach X, Y, Z \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_prostopadloscian_a8c6530d9c54c3fce7be7380b4c191d82}\label{class_prostopadloscian_a8c6530d9c54c3fce7be7380b4c191d82}} 
+\index{Prostopadloscian@{Prostopadloscian}!ZapiszBokiZ@{ZapiszBokiZ}}
+\index{ZapiszBokiZ@{ZapiszBokiZ}!Prostopadloscian@{Prostopadloscian}}
+\doxysubsubsection{\texorpdfstring{ZapiszBokiZ()}{ZapiszBokiZ()}}
+{\footnotesize\ttfamily void Prostopadloscian\+::\+Zapisz\+BokiZ (\begin{DoxyParamCaption}\item[{double}]{Tab\mbox{[}\+I\+L\+\_\+\+B\mbox{]} }\end{DoxyParamCaption}) const}
+
+
+
+Zapisanie bokow z osi Z prostopadloscianu. 
+
+Metoda zapisujaca w tablicy typu double dlugosci bokow lezacych na osi Z
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Tab} & -\/ tablica liczb typu double, w ktorej zapisywane sa dlugosci odpowiednich bokow, po kolei na osiach X, Y, Z \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/zad4-\/miclesniak/include/\mbox{\hyperlink{_prostopadloscian_8hh}{Prostopadloscian.\+hh}}\end{DoxyCompactItemize}

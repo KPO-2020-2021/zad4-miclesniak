@@ -1,0 +1,226 @@
+\hypertarget{class_wektor}{}\doxysection{Wektor$<$ Wymiar $>$ Class Template Reference}
+\label{class_wektor}\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+
+
+Szablon klasy \mbox{\hyperlink{class_wektor}{Wektor}}.  
+
+
+
+
+{\ttfamily \#include $<$Wektor.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wektor_acfa7e8deeb9dacb94d3c3d13b1f23d8f}{Wektor}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wektor_a5cdf4c05d683b3ca82602179c4cfbcc6}{Wektor}} (double tmp\mbox{[}Wymiar\mbox{]})
+\begin{DoxyCompactList}\small\item\em Konstruktor parametryczny. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_wektor_a686dc49429e93d22481bbf0fd1423f3b}{operator==}} (const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&Skl2) const
+\begin{DoxyCompactList}\small\item\em F\+Unkcja porownania. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_wektor_ab64065b1c17a19fae2afabc9b7a3fdeb}{operator\mbox{[}$\,$\mbox{]}}} (const int i) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora indeksowania. \end{DoxyCompactList}\item 
+double \& \mbox{\hyperlink{class_wektor_a62d60e6e054aac172158c21acc2f2d55}{operator\mbox{[}$\,$\mbox{]}}} (const int i)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora indeksowania. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \mbox{\hyperlink{class_wektor_a12f294914c67e3a7b063e8c3728ecba3}{operator+}} (const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&Skl2) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora dodawania. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \mbox{\hyperlink{class_wektor_a6333b3c89495d5d4b994b2c6e30a671f}{operator-\/}} (const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&Skl2) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora odejmowania. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \mbox{\hyperlink{class_wektor_acd14279b42e8efb32b0dd8de2de6947c}{operator$\ast$}} (const \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ \&macierz) const
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora mnożenia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wektor_a6b8ca90eb60f065eaf027bb0d53c2e1f}{setW}} (const double X, const double Y, const double Z)
+\begin{DoxyCompactList}\small\item\em Ustalenie Wektora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$int Wymiar$>$\newline
+class Wektor$<$ Wymiar $>$}
+
+Szablon klasy \mbox{\hyperlink{class_wektor}{Wektor}}. 
+
+Szablon, który modeluje pojęcie klasy \mbox{\hyperlink{class_wektor}{Wektor}} o dowolnym rozmiarze 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wektor_acfa7e8deeb9dacb94d3c3d13b1f23d8f}\label{class_wektor_acfa7e8deeb9dacb94d3c3d13b1f23d8f}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!Wektor@{Wektor}}
+\index{Wektor@{Wektor}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{Wektor()}{Wektor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::\mbox{\hyperlink{class_wektor}{Wektor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor domyślny. 
+
+Konstruktor tworzy obiekt typu \mbox{\hyperlink{class_wektor}{Wektor}}, a następnie wypełnia go zerami \mbox{\Hypertarget{class_wektor_a5cdf4c05d683b3ca82602179c4cfbcc6}\label{class_wektor_a5cdf4c05d683b3ca82602179c4cfbcc6}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!Wektor@{Wektor}}
+\index{Wektor@{Wektor}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{Wektor()}{Wektor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::\mbox{\hyperlink{class_wektor}{Wektor}} (\begin{DoxyParamCaption}\item[{double}]{tmp\mbox{[}\+Wymiar\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor parametryczny. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmp} & tablica na podstawie której tworzymy wektor \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wektor_acd14279b42e8efb32b0dd8de2de6947c}\label{class_wektor_acd14279b42e8efb32b0dd8de2de6947c}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$Wymiar$>$ \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ \&}]{macierz }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora mnożenia. 
+
+Przeciążenie operatora mnożenia dla wektora i macierzy, w celu rotacji wierzchołków prostopadłościanu
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em macierz} & -\/ \mbox{\hyperlink{class_macierz}{Macierz}} rotacji \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor$<$\+Wymiar$>$ -\/ Obiekt typu \mbox{\hyperlink{class_wektor}{Wektor}} zawierający nowe współrzędne punktu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_a12f294914c67e3a7b063e8c3728ecba3}\label{class_wektor_a12f294914c67e3a7b063e8c3728ecba3}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator+@{operator+}}
+\index{operator+@{operator+}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$Wymiar$>$ \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&}]{Skl2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora dodawania. 
+
+Przeciazenie operatora dodawania dla wektorow w celu przesuniecia
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Skl2} & -\/ Skladnik dodawania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor$<$\+Wymiar$>$ -\/ \mbox{\hyperlink{class_wektor}{Wektor}} bedacy suma Wektora wykorzystanego w metodzie oraz zawartego jako parametr 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_a6333b3c89495d5d4b994b2c6e30a671f}\label{class_wektor_a6333b3c89495d5d4b994b2c6e30a671f}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+\mbox{\hyperlink{class_wektor}{Wektor}}$<$Wymiar$>$ \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&}]{Skl2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora odejmowania. 
+
+Przeciążenie operatora odejmowania wektorów w celu wyznaczenia długości boków
+
+
+\begin{DoxyParams}{Parameters}
+{\em Skl2} & -\/ Składnik odejmowania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor$<$\+Wymiar$>$ -\/ \mbox{\hyperlink{class_wektor}{Wektor}} będący różnicą wektora wykorzystanego w metodzie oraz zawartego jako parametr 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_a686dc49429e93d22481bbf0fd1423f3b}\label{class_wektor_a686dc49429e93d22481bbf0fd1423f3b}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+bool \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&}]{Skl2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+F\+Unkcja porownania. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Skl2} & Vector z którym porównujemy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true Jesli vectory sa takie same 
+
+false Jesli vectory sa rózne 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_a62d60e6e054aac172158c21acc2f2d55}\label{class_wektor_a62d60e6e054aac172158c21acc2f2d55}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+double\& \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora indeksowania. 
+
+przeciazenie operatora w celu uzycia w funkcjach modyfikujacych element
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & -\/ liczba typu int oznaczająca indeks \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double\& -\/ Liczba typu double znajdujaca sie w Tablicy klasy \mbox{\hyperlink{class_wektor}{Wektor}} o podanym indeksie, wartosc modyfikowalna 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_ab64065b1c17a19fae2afabc9b7a3fdeb}\label{class_wektor_ab64065b1c17a19fae2afabc9b7a3fdeb}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+double \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Przeciążenie operatora indeksowania. 
+
+przeciazenie operatora w celu uzycia w funkcjach bez modyfikacji elementu
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em i} & -\/ liczba typu int oznaczająca indeks \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double -\/ Liczba typu double znajdujaca sie w Tablicy klasy \mbox{\hyperlink{class_wektor}{Wektor}} o podanym indeksie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wektor_a6b8ca90eb60f065eaf027bb0d53c2e1f}\label{class_wektor_a6b8ca90eb60f065eaf027bb0d53c2e1f}} 
+\index{Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}!setW@{setW}}
+\index{setW@{setW}!Wektor$<$ Wymiar $>$@{Wektor$<$ Wymiar $>$}}
+\doxysubsubsection{\texorpdfstring{setW()}{setW()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+void \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$\+::setW (\begin{DoxyParamCaption}\item[{const double}]{X,  }\item[{const double}]{Y,  }\item[{const double}]{Z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustalenie Wektora. 
+
+Metoda ustalajaca parametry Wektora uzyta w metodzie \mbox{\hyperlink{class_prostopadloscian_a1b798c35ccb048419d9105b82843b87d}{Prostopadloscian\+::\+Inicjalizuj}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em X} & -\/ Liczba typu double, która zostanie umieszczona jako pierwsza współrzędna wektora \\
+\hline
+{\em Y} & -\/ Liczba typu double, która zostanie umieszczona jako druga współrzędna wektora \\
+\hline
+{\em Z} & -\/ Liczba typu double, która zostanie umieszczona jako trzecia współrzędna wektora \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/zad4-\/miclesniak/include/\mbox{\hyperlink{_wektor_8hh}{Wektor.\+hh}}\end{DoxyCompactItemize}

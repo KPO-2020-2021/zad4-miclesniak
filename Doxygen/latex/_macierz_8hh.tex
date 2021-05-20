@@ -1,0 +1,79 @@
+\hypertarget{_macierz_8hh}{}\doxysection{/home/michal/zad4-\/miclesniak/include/\+Macierz.hh File Reference}
+\label{_macierz_8hh}\index{/home/michal/zad4-\/miclesniak/include/Macierz.hh@{/home/michal/zad4-\/miclesniak/include/Macierz.hh}}
+
+
+Plik zawiera definicje szablonu Macierz$<$$>$ oraz jej metod.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+Include dependency graph for Macierz.\+hh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{_macierz_8hh__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_macierz_8hh__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_macierz}{Macierz$<$ Wymiar $>$}}
+\begin{DoxyCompactList}\small\item\em Szablon klasy \mbox{\hyperlink{class_macierz}{Macierz}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_macierz_8hh_a598a3330b3c21701223ee0ca14316eca}\label{_macierz_8hh_a598a3330b3c21701223ee0ca14316eca}} 
+\#define {\bfseries PI}~3.\+14159265
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$int Wymiar$>$ }\\std\+::ostream \& \mbox{\hyperlink{_macierz_8hh_a16fab7455d34626650d8dc08ee24ca48}{operator$<$$<$}} (std\+::ostream \&out, \mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ const \&macierz)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora bitowego. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik zawiera definicje szablonu Macierz$<$$>$ oraz jej metod. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_macierz_8hh_a16fab7455d34626650d8dc08ee24ca48}\label{_macierz_8hh_a16fab7455d34626650d8dc08ee24ca48}} 
+\index{Macierz.hh@{Macierz.hh}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Macierz.hh@{Macierz.hh}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{\mbox{\hyperlink{class_macierz}{Macierz}}$<$ Wymiar $>$ const \&}]{macierz }\end{DoxyParamCaption})}
+
+
+
+Przeciążenie operatora bitowego. 
+
+Przeciazenie operatora bitowego w celu wyswietlenia macierzy rotacji
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Wymiar} & -\/ Rozmiar macierzy \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em out} & -\/ Strumien wyjsciowy \\
+\hline
+{\em macierz} & -\/ macierz rotacji, ktora ma zostać wyświetlona \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& -\/ Strumień wyjściowy 
+\end{DoxyReturn}

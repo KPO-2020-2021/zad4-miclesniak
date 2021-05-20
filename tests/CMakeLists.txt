@@ -6,7 +6,7 @@ set(TESTFILES        # All .cpp files in tests/
     dummy.cpp
 )
 
-set(TEST_MAIN unit_tests)   # Default name for test executable (change if you wish).
+set(TEST_MAIN _test)   # Default name for test executable (change if you wish).
 set(TEST_RUNNER_PARAMS "")  # Any arguemnts to feed the test runner (change as needed).
 
 # --------------------------------------------------------------------------------

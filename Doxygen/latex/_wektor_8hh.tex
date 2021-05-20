@@ -1,0 +1,101 @@
+\hypertarget{_wektor_8hh}{}\doxysection{/home/michal/zad4-\/miclesniak/include/\+Wektor.hh File Reference}
+\label{_wektor_8hh}\index{/home/michal/zad4-\/miclesniak/include/Wektor.hh@{/home/michal/zad4-\/miclesniak/include/Wektor.hh}}
+
+
+Plik zawierający definicję szablon Wektor$<$$>$  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Macierz.\+hh\char`\"{}}\newline
+Include dependency graph for Wektor.\+hh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_wektor_8hh__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_wektor_8hh__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_wektor}{Wektor$<$ Wymiar $>$}}
+\begin{DoxyCompactList}\small\item\em Szablon klasy \mbox{\hyperlink{class_wektor}{Wektor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$int Wymiar$>$ }\\std\+::istream \& \mbox{\hyperlink{_wektor_8hh_a7301797fd4d4b5efa72582f9da18738d}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&wektor)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora bitowego wczytania Wektora. \end{DoxyCompactList}\item 
+{\footnotesize template$<$int Wymiar$>$ }\\std\+::ostream \& \mbox{\hyperlink{_wektor_8hh_afe3b9b90427875bd47a85b1de8204460}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&wektor)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora bitowego wyświetlania Wektora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik zawierający definicję szablon Wektor$<$$>$ 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_wektor_8hh_afe3b9b90427875bd47a85b1de8204460}\label{_wektor_8hh_afe3b9b90427875bd47a85b1de8204460}} 
+\index{Wektor.hh@{Wektor.hh}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Wektor.hh@{Wektor.hh}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&}]{wektor }\end{DoxyParamCaption})}
+
+
+
+Przeciążenie operatora bitowego wyświetlania Wektora. 
+
+Przeciazenie operatora bitowego w celu wyswietlenia Wektora Funkcja zostala stworzona na potrzeby wyswietlenia wierzcholkow prostokata Wyswietla ona wartosci wektora. Dane sa odpowiednio sformatowane, tzn. przyjęto notację stałoprzecinkową z dokładnością do 10 miejsca po przecinku. Szerokość wyświetlanego pola to 16 miejsc, sposób wyrównywania -\/ do prawej strony.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Wymiar} & -\/ Wymiar Wektora \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em out} & -\/ Strumień wyjściowy, na którym ma zostać wyświetlony \mbox{\hyperlink{class_wektor}{Wektor}} \\
+\hline
+{\em wektor} & -\/ \mbox{\hyperlink{class_wektor}{Wektor}}, który ma zostać wyświetlony \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& -\/ Strumień wyjściowy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_wektor_8hh_a7301797fd4d4b5efa72582f9da18738d}\label{_wektor_8hh_a7301797fd4d4b5efa72582f9da18738d}} 
+\index{Wektor.hh@{Wektor.hh}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Wektor.hh@{Wektor.hh}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily template$<$int Wymiar$>$ \\
+std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{\mbox{\hyperlink{class_wektor}{Wektor}}$<$ Wymiar $>$ \&}]{wektor }\end{DoxyParamCaption})}
+
+
+
+Przeciążenie operatora bitowego wczytania Wektora. 
+
+Przeciazenie operatora bitowego w celu wczytania wektora podanego przez uzytkownika Funkcja wczytuje dwie liczby typu double, oddzielone spacja a nastepnie zapisuje je do wektora
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Wymiar} & -\/ Wymiar Wektora \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em in} & -\/ Strumień wejściowy służący do wczytania danych \\
+\hline
+{\em wektor} & -\/ obiekt klasy \mbox{\hyperlink{class_wektor}{Wektor}} który zostanie zmodyfikowany po wczytaniu odpowiednich wartości \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& -\/ Strumień wyjściowy 
+\end{DoxyReturn}

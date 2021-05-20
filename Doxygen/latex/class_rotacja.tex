@@ -1,0 +1,68 @@
+\hypertarget{class_rotacja}{}\doxysection{Rotacja Class Reference}
+\label{class_rotacja}\index{Rotacja@{Rotacja}}
+
+
+Klasa \mbox{\hyperlink{class_rotacja}{Rotacja}} przechowująca dane w celu wielokrotnego obrotu prostopadłościanu.  
+
+
+
+
+{\ttfamily \#include $<$Rotacja.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_macierz3x3_8hh_ad4fc7b0e263d9a99ba6174f68b52ea87}{Macierz3x3}} \mbox{\hyperlink{class_rotacja_abff4d8d57a8134419a30713e81ed70e7}{Ustalkoniec}} ()
+\begin{DoxyCompactList}\small\item\em Ustalenie końcowej macierzy rotacji. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_rotacja}{Rotacja}} \& \mbox{\hyperlink{class_rotacja_af51823ded6ecee97a505885cf53c682d}{dodaj}} (const double alfa, const char os)
+\begin{DoxyCompactList}\small\item\em Dodanie elementu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa \mbox{\hyperlink{class_rotacja}{Rotacja}} przechowująca dane w celu wielokrotnego obrotu prostopadłościanu. 
+
+Klasa \mbox{\hyperlink{class_rotacja}{Rotacja}} została utworzona w celu zgromadzenia danych, odnośnie wielu macierzy rotacji, a następnie utworzenie jednej, ostatecznej macierzy, która będzie wynikiem wszystkich obrotów 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_rotacja_af51823ded6ecee97a505885cf53c682d}\label{class_rotacja_af51823ded6ecee97a505885cf53c682d}} 
+\index{Rotacja@{Rotacja}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!Rotacja@{Rotacja}}
+\doxysubsubsection{\texorpdfstring{dodaj()}{dodaj()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_rotacja}{Rotacja}}\& Rotacja\+::dodaj (\begin{DoxyParamCaption}\item[{const double}]{alfa,  }\item[{const char}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dodanie elementu. 
+
+Metoda ma na celu pobranie danych odnośnie kolejnych macierzy oraz zapisanie ich do poszczególnych elementów klasy \mbox{\hyperlink{class_rotacja}{Rotacja}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em alfa} & -\/ wartości kątow \\
+\hline
+{\em os} & -\/ oznaczenia osi rotacji \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_rotacja}{Rotacja}}\& -\/ Obiekt klasy \mbox{\hyperlink{class_rotacja}{Rotacja}} przechowujący dane 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_rotacja_abff4d8d57a8134419a30713e81ed70e7}\label{class_rotacja_abff4d8d57a8134419a30713e81ed70e7}} 
+\index{Rotacja@{Rotacja}!Ustalkoniec@{Ustalkoniec}}
+\index{Ustalkoniec@{Ustalkoniec}!Rotacja@{Rotacja}}
+\doxysubsubsection{\texorpdfstring{Ustalkoniec()}{Ustalkoniec()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_macierz3x3_8hh_ad4fc7b0e263d9a99ba6174f68b52ea87}{Macierz3x3}} Rotacja\+::\+Ustalkoniec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ustalenie końcowej macierzy rotacji. 
+
+Metoda ma na celu utworzenie końcowej macierzy rotacji, w oparciu o podane przez użytkownika osie oraz kąty następujących po sobie macierzy
+
+\begin{DoxyReturn}{Returns}
+Macierz3x3 -\/ \mbox{\hyperlink{class_macierz}{Macierz}} wynikowa 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/zad4-\/miclesniak/include/\mbox{\hyperlink{_rotacja_8hh}{Rotacja.\+hh}}\end{DoxyCompactItemize}
